@@ -2,10 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Encryption and Decryption App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body background = 'http://www.dgi-sll.com/wp-content/themes/Shuttershot/images/fondos/6.jpg'>
+    <!--Añado la introducción a mi aplicación -->
+      <div class="container" style="-moz-box-pack: start, justify">
+        <header class="welcomeTittleStyle">How it works?</header>
+        <p class="paragraphStyle">This is an application for cipher messages, if you want to talk with your friends about a secret topic, you both can decide how many spaces you want to run in the alphabet, that means that you can set an specific number in the box where says "shift" and then write the text you want to encrypt, or the text you want to decrypt.</p>
+        <img src="https://i.vimeocdn.com/portrait/3193122_640x640" alt="EyD app" class="imageStyle">
+        <button type="button" id="firstButton" class="textStyle1">Try Us</button>
+      </div>   
+  <!--Añado mi primer formulario, para que el usuario inserte el texto que desea cifrar-->
+     <header class="encryptTittleStyle">What's your secret message?</header> 
+      <div>
+        <form action=""></form> 
+         <div>
+            <label for="text" class="firstTextPosition">Insert text</label>
+            <textarea class="wordStyle"></textarea>
+            <button type="button" id="secondButton" class="textStyle2">Send</button>
+         </div>
+      </div>  
+  <!--Añado el segundo formulario, para que el usuario inserte el texto que desea descifrar-->
+      <header class="decryptTittleStyle">Do you want to know what it says?</header> 
+      <div>
+        <form action=""></form> 
+         <div>
+            <label for="text" class="secondTextPosition">Insert text</label>
+            <textarea class="wordStyle"></textarea>
+            <button type="button" id="thirdButton" class="textStyle3">Send</button>
+         </div>
+      </div> 
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

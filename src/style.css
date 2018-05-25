@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    width  : 740px;
+    height : 498px;
+    margin: 0 auto;
+    background: none;
+    border: 5px black;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.welcomeTittleStyle {
+    padding: 20px;
+    font-weight: 600; 
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+
+.paragraphStyle {
+    padding: 20px;
+    font-weight: 600; 
+    font-size: 20px;
+    font-family: sans-serif
+}
+
+.imageStyle {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#firstButton {
+    padding: 3%;
+    background-color: #60cb01;
+    border-radius: 20%;
+    border-bottom-color: #60cb01;
+    float: left inherit;
+    cursor: pointer;
+    
+}
+
+.textStyle1 {
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+}
+
