@@ -1,4 +1,4 @@
-.container {
+#container {
     position: relative;
     width  : 740px;
     height : 498px;
@@ -9,7 +9,7 @@
     padding: 20px;
 }
 
-.welcomeTittleStyle {
+.welcome-tittle-style {
     padding: 20px;
     font-weight: 600; 
     font-size: 60px;
@@ -17,20 +17,20 @@
 }
 
 
-.paragraphStyle {
+.paragraph-style {
     padding: 20px;
     font-weight: 600; 
     font-size: 20px;
     font-family: sans-serif
 }
 
-.imageStyle {
+.image-style {
     width: 200px;
     height: 200px;
     float: right;
 }
 
-#firstButton {
+#first-button {
     padding: 3%;
     background-color: #60cb01;
     border-radius: 20%;
@@ -40,11 +40,48 @@
     
 }
 
-.textStyle1 {
+.text-style-1 {
     text-decoration: none;
     padding: 15px;
     font-weight: 600;
     font-size: 25px;
     color: black;
 }
+
+.encrypt-tittle-style {
+
+}
+
+#firstphrase {
+
+}
+
+#second-button {
+
+}
+
+.text-style-2 {
+
+}
+
+.decrypt-tittle-style {
+
+}
+
+#secondphrase {
+
+}
+
+#third-button {
+
+}
+
+.text-style-3 {
+
+}
+
+#parameter {
+
+}
+
 

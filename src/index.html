@@ -7,32 +7,46 @@
   </head>
   <body background = 'http://www.dgi-sll.com/wp-content/themes/Shuttershot/images/fondos/6.jpg'>
     <!--Añado la introducción a mi aplicación -->
-      <div class="container" style="-moz-box-pack: start, justify">
-        <header class="welcomeTittleStyle">How it works?</header>
-        <p class="paragraphStyle">This is an application for cipher messages, if you want to talk with your friends about a secret topic, you both can decide how many spaces you want to run in the alphabet, that means that you can set an specific number in the box where says "shift" and then write the text you want to encrypt, or the text you want to decrypt.</p>
-        <img src="https://i.vimeocdn.com/portrait/3193122_640x640" alt="EyD app" class="imageStyle">
-        <button type="button" id="firstButton" class="textStyle1">Try Us</button>
-      </div>   
+       <div id="container" style="display:block">
+        <header class="welcome-tittle-style">¿Cómo funciona?</header>
+          <p class="paragraph-style">Esta es una aplicación para mensajes de cifrado, si quieres hablar con tus amigos sobre un tema secreto, ambos pueden decidir cuántos espacios desean correr en el alfabeto, lo que significa que puede establecer un número específico en el cuadro donde dice "shift" y luego escribir el texto que desea cifrar, o descifrar.</p>
+          <img src="https://i.vimeocdn.com/portrait/3193122_640x640" alt="EyD app" class="image-style">
+          <button type="button" id="first-button" class="text-style-1">Try Us</button>
+       </div>  
+  <!--Añado el formulario para insertar el número de letras que desea correr-->
+     <header>Shift</header> 
+       <div>
+         <form>
+            <label for="number"></label>
+            <input id="parameter" type="number" name="parameters" placeholder="example (1,2...)">
+         </form>
+       </div>      
   <!--Añado mi primer formulario, para que el usuario inserte el texto que desea cifrar-->
-     <header class="encryptTittleStyle">What's your secret message?</header> 
-      <div>
-        <form action=""></form> 
-         <div>
-            <label for="text" class="firstTextPosition">Insert text</label>
-            <textarea class="wordStyle"></textarea>
-            <button type="button" id="secondButton" class="textStyle2">Send</button>
-         </div>
-      </div>  
+     <header class="encrypt-tittle-style">What's your secret message?</header> 
+       <div>
+         <form>
+            <label for="text"></label>
+            <textarea id="firstphrase" placeholder="Insert Text"></textarea>
+            <button type="button" id="second-button" class="text-style-2">Send</button>
+         </form> 
+       </div>  
   <!--Añado el segundo formulario, para que el usuario inserte el texto que desea descifrar-->
-      <header class="decryptTittleStyle">Do you want to know what it says?</header> 
-      <div>
-        <form action=""></form> 
-         <div>
-            <label for="text" class="secondTextPosition">Insert text</label>
-            <textarea class="wordStyle"></textarea>
-            <button type="button" id="thirdButton" class="textStyle3">Send</button>
-         </div>
-      </div> 
+      <header class="decrypt-tittle-style">Do you want to know what it says?</header> 
+       <div>
+         <form> 
+            <label for="text"></label>
+            <textarea id="secondphrase" placeholder="Insert Text"></textarea>
+            <button type="button" id="third-button" class="text-style-3">Send</button>
+         </form> 
+       </div>
+  <!--Añado la casilla de resultado-->
+      <header>Secret Result</header>  
+        <div class="result-container">
+          <form> 
+            <label for="text"></label>
+            <textarea id="result"></textarea>
+         </form> 
+        </div>
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
