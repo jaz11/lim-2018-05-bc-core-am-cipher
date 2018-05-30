@@ -1,7 +1,9 @@
 window.cipher = {
-    encode: (offset, string) =>
-       { 
+    encode: (offset, string) => 
+       { //Empiezo mi función encode para cifrar
+            //creo la variable asciiCode, para que sea existente en mi código
         let asciiCode;
+            //creo una variable para el string a cifrar
         let encrypt = "";
        
         for (let a = 0; a < string.length; a++) {
@@ -17,14 +19,14 @@ window.cipher = {
         },
 
     decode: (offset, string) => 
-        { debugger
+        { 
          let asciiCode;
          let decrypt = "";
          
          for (let a = 0; a < string.length; a++) {
              asciiCode = string[a].charCodeAt();
              if (asciiCode >= 65 && asciiCode <= 90) {
-                decrypt = decrypt + String.fromCharCode((asciiCode - 65 - parseInt(offset) + parseInt(offset)) % 26 + 65);
+                decrypt = decrypt + String.fromCharCode((asciiCode + 65 - parseInt(offset)) % 26 + 65);
               }
              else {
                 decrypt = decrypt + string[a];

@@ -30,7 +30,7 @@
 }
 
 #first-button {
-    padding: 3%;
+    padding: 2px ;
     background-color: #60cb01;
     border-radius: 20%;
     border-bottom-color: #60cb01;
@@ -48,15 +48,15 @@
 }
 
 .encrypt-tittle-style {
-
+    font-family: sans-serif;
 }
 
 #firstphrase {
-
+    font-family: sans-serif;
 }
 
 #second-button {
-
+    
 }
 
 #resultcontainer {
@@ -66,15 +66,15 @@
 }
 
 .text-style-2 {
-
+    font-family: sans-serif;
 }
 
 .decrypt-tittle-style {
-
+    font-family: sans-serif;
 }
 
 #secondphrase {
-
+    font-family: sans-serif;
 }
 
 #third-button {
@@ -88,7 +88,7 @@
 }
 
 .text-style-3 {
-
+    font-family: sans-serif;
 }
 
 #parameter {
