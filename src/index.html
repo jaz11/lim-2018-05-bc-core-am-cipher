@@ -14,7 +14,7 @@
           <button type="button" id="first-button" class="text-style-1">Try Us</button>
        </div>  
   <!--Añado el formulario para insertar el número de letras que desea correr-->
-     <header>Shift</header> 
+     <h2>Shift</h2> 
        <div>
          <form>
             <label for="number"></label>
@@ -22,7 +22,7 @@
          </form>
        </div>      
   <!--Añado mi primer formulario, para que el usuario inserte el texto que desea cifrar-->
-     <header class="encrypt-tittle-style">What's your secret message?</header> 
+     <h2 class="encrypt-tittle-style">Cúal es tu mensaje secreto?</h2> 
        <div>
          <form>
             <label for="text"></label>
@@ -30,8 +30,13 @@
             <button type="button" id="second-button" class="text-style-2">Send</button>
          </form> 
        </div>  
-  <!--Añado el segundo formulario, para que el usuario inserte el texto que desea descifrar-->
-      <header class="decrypt-tittle-style">Do you want to know what it says?</header> 
+ <!--Añado la casilla de resultado de cifrado-->
+     <h2>Frase secreta</h2>  
+       <div id="resultcontainer">
+        <p id="result"></p>
+       </div>
+ <!--Añado el segundo formulario, para que el usuario inserte el texto que desea descifrar-->
+      <h2 class="decrypt-tittle-style">Quieres saber que es lo que dice?</h2> 
        <div>
          <form> 
             <label for="text"></label>
@@ -39,13 +44,10 @@
             <button type="button" id="third-button" class="text-style-3">Send</button>
          </form> 
        </div>
-  <!--Añado la casilla de resultado-->
-      <header>Secret Result</header>  
-        <div class="result-container">
-          <form> 
-            <label for="text"></label>
-            <textarea id="result"></textarea>
-         </form> 
+  <!--Añado la casilla de resultado de descifrado-->
+      <h2>Frase ya no tan secreta</h2>  
+        <div id="resultcontainer2">
+          <p id="result2"></p>
         </div>
     <div id="root"></div>
     <script src="cipher.js"></script>

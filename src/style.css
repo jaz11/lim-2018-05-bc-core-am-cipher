@@ -1,6 +1,5 @@
 #container {
     position: relative;
-    width  : 740px;
     height : 498px;
     margin: 0 auto;
     background: none;
@@ -60,6 +59,12 @@
 
 }
 
+#resultcontainer {
+    background-color: #fff ;
+    min-height: 100px;
+    border: solid black; 5px;
+}
+
 .text-style-2 {
 
 }
@@ -74,6 +79,12 @@
 
 #third-button {
 
+}
+
+#resultcontainer2 {
+    background-color: #fff ;
+    min-height: 100px;
+    border: solid black; 5px;
 }
 
 .text-style-3 {

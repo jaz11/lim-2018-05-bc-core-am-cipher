@@ -1,18 +1,29 @@
-//Calling all my elements
 //const container = document.getElementsByClassName("container");
 
 //const firstButton = document.getElementById("first-button");
 
-//Llamo mis elementos, y le doy funcionalidad a mi botón
-document.getElementById("second-button").addEventListener("click", () => { debugger
-    //Variable para la frase secreta, lo convierto a mayúscula para que lea el ascii code
+ //Llamo mis elementos, y le doy funcionalidad al primer botón de envío
+    document.getElementById("second-button").addEventListener("click", () => { 
+    //Variable para la frase secreta, lo convierto a mayúscula para que lea el ASCII code
     let string = document.getElementById("firstphrase").value.toUpperCase();
-    //Variable para el número de desplazamiento, primero lo convierto a number
+    //Variable para el número de desplazamiento, primero lo convierto en number
     let offset = parseInt(document.getElementById("parameter").value);
-    let encrypt = window.cipher.encode(offset, string);
+    //Llamando a mi función cifrar
+    let encrypt = cipher.encode(offset, string);
     document.getElementById("result").innerHTML = encrypt.toLowerCase();    
-    
-}
+    }
+)
+
+//Llamo mis elementos, y le doy funcionalidad al segundo botón de envío
+    document.getElementById("third-button").addEventListener("click", () => {
+    //Variable para la frase cifrada, lo convierto a mayúscula para que lea el ASCII code
+    let string = document.getElementById("secondphrase").value.toUpperCase();
+    //Variable para el número de desplazamiento, lo convierto en number
+    let offset = parseInt(document.getElementById("parameter").value);
+    //Llamando a mi función descifrar
+    let decrypt = cipher.decode(offset, string);
+    document.getElementById("result2").innerHTML = decrypt.toLowerCase();    
+    }
 )
 
 
