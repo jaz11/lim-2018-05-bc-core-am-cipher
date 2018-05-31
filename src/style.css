@@ -30,7 +30,11 @@
 }
 
 #first-button {
+<<<<<<< HEAD
     padding: 3%;
+=======
+    padding: 2px ;
+>>>>>>> 9a344b72d98b2baba3e86fde6145a70761857c76
     background-color: #60cb01;
     border-radius: 20%;
     border-bottom-color: #60cb01;
@@ -48,6 +52,7 @@
 }
 
 .encrypt-tittle-style {
+<<<<<<< HEAD
 
 }
 
@@ -57,6 +62,17 @@
 
 #second-button {
 
+=======
+    font-family: sans-serif;
+}
+
+#firstphrase {
+    font-family: sans-serif;
+}
+
+#second-button {
+    
+>>>>>>> 9a344b72d98b2baba3e86fde6145a70761857c76
 }
 
 #resultcontainer {
@@ -66,6 +82,7 @@
 }
 
 .text-style-2 {
+<<<<<<< HEAD
 
 }
 
@@ -75,6 +92,17 @@
 
 #secondphrase {
 
+=======
+    font-family: sans-serif;
+}
+
+.decrypt-tittle-style {
+    font-family: sans-serif;
+}
+
+#secondphrase {
+    font-family: sans-serif;
+>>>>>>> 9a344b72d98b2baba3e86fde6145a70761857c76
 }
 
 #third-button {
@@ -88,7 +116,11 @@
 }
 
 .text-style-3 {
+<<<<<<< HEAD
 
+=======
+    font-family: sans-serif;
+>>>>>>> 9a344b72d98b2baba3e86fde6145a70761857c76
 }
 
 #parameter {
