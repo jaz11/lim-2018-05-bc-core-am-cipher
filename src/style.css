@@ -39,7 +39,6 @@
     font-weight: 600;
     font-size: 18px;
     color: black;    
-    
 }
 
 /* Estilo de mi caja oculta */
@@ -83,7 +82,7 @@
     padding: 10px;
     font-weight: 100; 
     font-size: 25px;
-    font-family: sans-serif;
+    font-family: sans-serif
 }
 
 /* Estilo del contenedor resultado */
@@ -92,6 +91,7 @@
     min-height: 100px;
     border: solid black 3px;
 }
+
 
 /* centrando texto cifrado */
 #result {
@@ -144,6 +144,7 @@
     min-height: 100px;
     border: solid black 3px;
 }
+
 
 /* centrando texto cifrado */
 #result2 {
