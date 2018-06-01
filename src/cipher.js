@@ -1,11 +1,11 @@
 window.cipher = {
     encode: (offset, string) => 
-       { //Empiezo mi función encode para cifrar
-            //creo la variable asciiCode, para que sea existente en mi código
+       { // Empiezo mi función encode para cifrar
+            // Creo la variable asciiCode, para que exista en esta función
         let asciiCode;
-            //creo una variable para el string a cifrar
-        let encrypt = "";
-       
+            // Creo una variable para el string a cifrar
+        let encrypt = '';
+      // Le doy un índice a mi asciiCode, le aplico condiciones y le doy la fórmula del cifrado; luego le digo que me debe retornar
         for (let a = 0; a < string.length; a++) {
              asciiCode = string[a].charCodeAt();
              if (asciiCode >= 65 && asciiCode <= 90) {
@@ -19,10 +19,12 @@ window.cipher = {
         },
 
     decode: (offset, string) => 
-        { 
+        { // Empiezo mi función encode para descifrar
+            // Creo la variable asciiCode, para que exista en esta función
          let asciiCode;
-         let decrypt = "";
-         
+            // Creo una variable para el string a descifrar
+         let decrypt = '';
+      // Le doy un índice a mi asciiCode, le aplico condiciones y le doy la fórmula del descifrado; luego le digo que me debe retornar         
          for (let a = 0; a < string.length; a++) {
              asciiCode = string[a].charCodeAt();
              if (asciiCode >= 65 && asciiCode <= 90) {
@@ -36,15 +38,15 @@ window.cipher = {
             return decrypt;
         },
         
-
+  // Creo mi cipher con el desplazamiento para volverlo global, y poder llamarlo en index.js
     createCipherWithOffset: (offset) => {
 
         return {
             encode: (string) => {
-                return cipher.encode(offset, firstphrase);
+                return cipher.encode(offset, string);
             },
             decode: (string) => {
-                return cipher.decode(offset, secondphrase)
+                return cipher.decode(offset, string)
             }
         }
     }
