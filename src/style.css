@@ -1,177 +1,177 @@
 .body-background {
-   background-image: url('https://lamemoriadelospasos.files.wordpress.com/2015/06/2-novelas-de-misterio.jpg')
-}
-
-/* Estilo del título */
-.welcome-tittle-style {
-    color: #fff;
-    padding: 20px;
-    font-weight: 600; 
-    font-size: 27px;
-    font-family: sans-serif
-}
-
-/* Estilo del párrafo */
-.paragraph-style {
-    color: #fff;
-    padding: 20px;
-    font-weight: 600; 
-    font-size: 20px;
-    font-family: sans-serif
-}
-
-/* Estilo de la imagen */
-.image-style {
-    width: 200px;
-    height: 200px;
-    float: right;
-    border: solid
-}
-
-/* Estilo del botón */
-#first-button {
-    background-color: #60cb01;
-    border-radius: 11%;
-    border-bottom-color: #60cb01;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 15px;
-    font-weight: 600;
-    font-size: 18px;
-    color: black;    
-}
-
-/* Estilo de mi caja oculta */
-#hidden-box {
-    display: none;
-}
-
-/* Estilo de la sección cifrar */
-.encrypt-box {
-    float: left;
-}
-
-/* Estilo del título de la casilla del texto cifrado */
-.encrypt-tittle-style {
-    color: #fff;
-    padding: 10px;
-    font-weight: 100; 
-    font-size: 25px;
-    font-family: sans-serif;
-}
-
-/* Estilo de la cajita del texto cifrado */
-#firstphrase {
-    padding: 10px;
-    font-family: sans-serif 
-}
-/* Estilo del botón de envío para el cifrado */
-#second-button {
-    display: block;
-    font-family: sans-serif;
-    border-radius: 7px;
-    background-color: black;
-    color: white;
-    padding: 6px;
-    font-size: 14px
-}
-
-/* Estilo del título de la casilla resultado para el cifrado */
-.container-result-tittle-style {
-    color: #fff;
-    padding: 10px;
-    font-weight: 100; 
-    font-size: 25px;
-    font-family: sans-serif
-}
-
-/* Estilo del contenedor resultado */
-#resultcontainer {
-    background-color: gray ;
-    min-height: 100px;
-    border: solid black 3px;
-}
-
-
-/* centrando texto cifrado */
-#result {
-    text-align: center;
-}
-
-/* Estilo de la sección descifrar */
-.decrypt-box {
-    float: right;
-}
-
-/* Estilo del título de la casilla del texto descifrado */
-.decrypt-tittle-style {
-    color: #fff;
-    padding: 10px;
-    font-weight: 100; 
-    font-size: 25px;
-    font-family: sans-serif;
-}
-
-/* Estilo de la cajita del texto descifrado */
-#secondphrase {
-    padding: 10px;
-    font-family: sans-serif;
-}
-
-/* Estilo del botón de envío para el descifrado */
-#third-button {
-    display: block;
-    font-family: sans-serif;
-    border-radius: 7px;
-    background-color: black;
-    color: white;
-    padding: 6px;
-    font-size: 14px
-}
-
-/* Estilo del título de la casilla resultado para el descifrado */
-.container-result-tittle-style-2 {
-    color: #fff;
-    padding: 10px;
-    font-weight: 100; 
-    font-size: 25px;
-    font-family: sans-serif;    
-}
-
-/* Estilo del contenedor resultado */
-#resultcontainer2 {
-    background-color: gray ;
-    min-height: 100px;
-    border: solid black 3px;
-}
-
-
-/* centrando texto cifrado */
-#result2 {
-    text-align: center;
-}
-
-/* Estilo del título de la cajita del offset */
-.tittle-parameter-box-style {
-    color: black; 
-    font-size: 45px;
-    font-family: sans-serif;    
-}
-
-/* Estilo de la seción del offset */
-.parameter-box {
-    text-align: center;
-}
+    background-image: url('https://fondosdepantallaymuchomas.files.wordpress.com/2015/01/d9999-webtreats_baby_blue_pattern_47.jpg')
+ }
  
-/* Estilo de la cajita del offset */
-#parameter {
-    padding: 10px
-}
-
-/* Le doy estilo a mis dos secciones */
-section {
-    width: 50%;
-    box-sizing: border-box;
-    padding: 7px;
-}
-
+ /* Estilo del título */
+ .welcome-tittle-style {
+     color: black;
+     padding: 20px;
+     font-weight: 600; 
+     font-size: 27px;
+     font-family: sans-serif
+ }
+ 
+ /* Estilo del párrafo */
+ .paragraph-style {
+     color: black;
+     padding: 20px;
+     font-weight: 600; 
+     font-size: 20px;
+     font-family: sans-serif
+ }
+ 
+ /* Estilo de la imagen */
+ .image-style {
+     width: 200px;
+     height: 200px;
+     float: right;
+     border: solid
+ }
+ 
+ /* Estilo del botón */
+ #first-button {
+     background-color:#111d2e;
+     border-radius: 11%;
+     border-bottom-color:#111d2e;
+     cursor: pointer;
+     text-decoration: none;
+     padding: 15px;
+     font-weight: 600;
+     font-size: 18px;
+     color: white;    
+ }
+ 
+ /* Estilo de mi caja oculta */
+ #hidden-box {
+     display: none;
+ }
+ 
+ /* Estilo de la sección cifrar */
+ .encrypt-box {
+     float: left;
+ }
+ 
+ /* Estilo del título de la casilla del texto cifrado */
+ .encrypt-tittle-style {
+     color: black;
+     padding: 10px;
+     font-weight: 100; 
+     font-size: 25px;
+     font-family: sans-serif;
+ }
+ 
+ /* Estilo de la cajita del texto cifrado */
+ #firstphrase {
+     padding: 10px;
+     font-family: sans-serif 
+ }
+ /* Estilo del botón de envío para el cifrado */
+ #second-button {
+     display: block;
+     font-family: sans-serif;
+     border-radius: 7px;
+     background-color: black;
+     color: white;
+     padding: 6px;
+     font-size: 14px
+ }
+ 
+ /* Estilo del título de la casilla resultado para el cifrado */
+ .container-result-tittle-style {
+     color: black;
+     padding: 10px;
+     font-weight: 100; 
+     font-size: 25px;
+     font-family: sans-serif
+ }
+ 
+ /* Estilo del contenedor resultado */
+ #resultcontainer {
+     background-color: gray ;
+     min-height: 100px;
+     border: solid black 3px;
+ }
+ 
+ 
+ /* centrando texto cifrado */
+ #result {
+     text-align: center;
+ }
+ 
+ /* Estilo de la sección descifrar */
+ .decrypt-box {
+     float: right;
+ }
+ 
+ /* Estilo del título de la casilla del texto descifrado */
+ .decrypt-tittle-style {
+     color: black;
+     padding: 10px;
+     font-weight: 100; 
+     font-size: 25px;
+     font-family: sans-serif;
+ }
+ 
+ /* Estilo de la cajita del texto descifrado */
+ #secondphrase {
+     padding: 10px;
+     font-family: sans-serif;
+ }
+ 
+ /* Estilo del botón de envío para el descifrado */
+ #third-button {
+     display: block;
+     font-family: sans-serif;
+     border-radius: 7px;
+     background-color: black;
+     color: white;
+     padding: 6px;
+     font-size: 14px
+ }
+ 
+ /* Estilo del título de la casilla resultado para el descifrado */
+ .container-result-tittle-style-2 {
+     color: black;
+     padding: 10px;
+     font-weight: 100; 
+     font-size: 25px;
+     font-family: sans-serif;    
+ }
+ 
+ /* Estilo del contenedor resultado */
+ #resultcontainer2 {
+     background-color: gray ;
+     min-height: 100px;
+     border: solid black 3px;
+ }
+ 
+ 
+ /* centrando texto cifrado */
+ #result2 {
+     text-align: center;
+ }
+ 
+ /* Estilo del título de la cajita del offset */
+ .tittle-parameter-box-style {
+     color: black; 
+     font-size: 45px;
+     font-family: sans-serif;    
+ }
+ 
+ /* Estilo de la seción del offset */
+ .parameter-box {
+     text-align: center;
+ }
+  
+ /* Estilo de la cajita del offset */
+ #parameter {
+     padding: 10px
+ }
+ 
+ /* Le doy estilo a mis dos secciones */
+ section {
+     width: 50%;
+     box-sizing: border-box;
+     padding: 7px;
+ }
+ 
