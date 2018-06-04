@@ -13,6 +13,10 @@ describe('cipher', () => {
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33', () => {
       assert.equal(cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "HIJKLMNOPQRSTUVWXYZABCDEFG");
     });
+
+    it('debería retornar "H H" para "A A" con offest 33', () => {
+      assert.equal(cipher.encode(33, "A A"), "H H");
+    });
   });
 
   describe('cipher.decode', () => {
@@ -22,7 +26,11 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33', () => {
-      assert.equal(cipher.decode(33, "HIJKLMNOPQRSTUVWXYZABCDEFG"), "ABCDEFGHIJKLMNOPQRSTUVWXYZ"); 
+      assert.equal(cipher.decode(33, "HIJKLMNOPQRSTUVWXYZABCDEFG"), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");     
+    });
+
+    it('debería retornar "A A" para "H H" con offest 33', () => {
+      assert.equal(cipher.decode(33, "H H"), "A A");
     });
   });
 
@@ -36,6 +44,11 @@ describe('cipher', () => {
       assert.equal(typeof cipher.createCipherWithOffset(33), "object" );
       assert.equal(typeof cipher.createCipherWithOffset(33).encode, "function" );
       assert.equal(typeof cipher.createCipherWithOffset(33).decode, "function" )
+    });
+
+    it('debría ser una función', () => {
+      assert.equal(typeof cipher.createCipherWithOffset(33).encode("A A"), "H H");
+      assert.equal(typeof cipher.createCipherWithOffset(33).decode("H H"), "A A")
     });
 
   });
