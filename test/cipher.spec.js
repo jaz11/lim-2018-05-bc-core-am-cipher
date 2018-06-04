@@ -48,8 +48,12 @@ describe('cipher', () => {
 
     it('debría ser una función', () => {
       assert.equal(typeof cipher.createCipherWithOffset(33).encode("A A"), "H H");
-      assert.equal(typeof cipher.createCipherWithOffset(33).decode("H H"), "A A")
     });
+
+    it('debría ser una función', () => {
+      assert.equal(typeof cipher.createCipherWithOffset(33).decode("H H"), "A A");
+    });
+
 
   });
 
